@@ -46,16 +46,13 @@ ol,ul{
  margin: 0 auto;
  padding: 0 15px;
 }
-
 .header{
  border-bottom: 1px solid #e7e9fc;
 }
-
 .header-container{
  display: flex;
  align-items: center;
 }
-
 .menu {
    text-decoration: none;
    list-style: none;
@@ -63,7 +60,7 @@ ol,ul{
    align-items: center;
    }
    
-.logo {
+   .logo {
    font-family: "Raleway", sans-serif;
    font-weight: 700;
    font-size: 18px;
@@ -73,9 +70,9 @@ ol,ul{
    color: #4d5ae5;
      text-transform: uppercase;
      margin-right: 76px;
-}
+   }
    
-.studio {
+   .studio {
      font-weight: 700;
      font-size: 18px;
      line-height: 1.17;
@@ -83,41 +80,40 @@ ol,ul{
      text-transform: uppercase;
      color: #2e2f42;
      text-transform: uppercase;
-}
+     }
    
-.menu-elements {
+   .menu-elements {
    background: #fff;
    text-align:  center;
    line-height: normal;
    display: flex;
    gap: 40px;
-}
+   }
    
-.email-telefon {
-  background: #fff;
-  color: #434455 ;
-}
+   .email-telefon {
+       background: #fff;
+       color: #434455 ;
+     }
      /* .menu-nav-index */
-.menu-nav-index{
-   font-weight: 500;
-   font-size: 16px;
-    line-height: 1.5;
-   letter-spacing: 0.02em;
-   color: #2e2f42;
-    padding: 24px 0;
-    display: block;
+     .menu-nav-index{
+       font-weight: 500;
+       font-size: 16px;
+       line-height: 1.5;
+       letter-spacing: 0.02em;
+       color: #2e2f42;
+       padding: 24px 0;
+       display: block;
 
-}
-.menu-nav-index:hover{ 
-  color: #404bbf;
-}
-
-.menu-nav-index:focus{
+     }
+       .menu-nav-index:hover{ 
        color: #404bbf;
-}
+     }
+     .menu-nav-index:focus{
+       color: #404bbf;
+     }
     /* .menu-nav-index */
     
-.contacts {
+   .contacts {
    font-weight: 400;
    font-size: 16px;
    line-height: 1.5;
@@ -125,17 +121,18 @@ ol,ul{
    color: #434455;
    font-style: normal;
    margin-left: auto;
-}
-.social-links :hover {
+   }
+   .social-links :hover {
      color: #404bbf;
-}
-.social-links :focus {
+   }
+   .social-links :focus {
      color: #404bbf;
-}
-.social-links{
+   }
+   .social-links{
      display: flex;
      gap: 40px;
-}
+
+   }
 /*<!--Section1--> */ 
 
 .box-hero-image {
@@ -144,7 +141,7 @@ ol,ul{
    padding-bottom: 188px;
    }
    
-.hero-image {
+   .hero-image {
      font-family: "Roboto", sans-serif;
      font-weight: 700;
      font-size: 56px;
@@ -154,8 +151,8 @@ ol,ul{
      color: #fff;
      max-width: 496px;
      margin: 0 auto;
-}
-.botton {
+     }
+   .botton {
      background-color: #4D5AE5;
      font-family: "Roboto", sans-serif;
      font-weight: 500;
@@ -171,16 +168,16 @@ ol,ul{
      border: 0;
      padding: 16px 32px;
      margin-top: 48px;    
-}
+   }
    
-.botton:hover {
+   .botton:hover {
      background-color: #404BBF;
      cursor: pointer;
    
-}
-.botton:focus {
+   }
+   .botton:focus {
      background-color: #404bbf;
-}
+     }
 /*<!--Section2--> */ 
 .feature{
  padding: 120px 0;
@@ -306,6 +303,7 @@ margin-bottom: 72px;
  padding-bottom: 120px;
 }
 .project-list-img{
+
 }
 .our_port_title {
 font-weight: 500;
